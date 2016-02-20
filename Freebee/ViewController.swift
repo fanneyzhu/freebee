@@ -8,18 +8,41 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITextFieldDelegate {
+    
+    // MARK: Properties
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passworldTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Handle the text field input through delegate callbacks
+        emailTextField.delegate = self
+        passworldTextField.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    // MARK: UITextFieldDelegate
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        // Hide the keyboard
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    // MARK: Actions
+    @IBAction func forgotPassword(sender: UIButton) {
+    }
+    
+    @IBAction func signIn(sender: UIButton) {
+    }
+    
+    @IBAction func register(sender: UIButton) {
+    }
 
 }
 
