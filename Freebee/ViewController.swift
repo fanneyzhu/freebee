@@ -12,14 +12,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     // MARK: Properties
     @IBOutlet weak var emailTextField: UITextField!
-    @IBOutlet weak var passworldTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Handle the text field input through delegate callbacks
         emailTextField.delegate = self
-        passworldTextField.delegate = self
+        passwordTextField.delegate = self
     }
 
     override func didReceiveMemoryWarning() {

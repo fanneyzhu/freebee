@@ -388,6 +388,7 @@
 				ADFB85F71C7233D200E760B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADFB85F81C7233D200E760B1 /* Build configuration list for PBXNativeTarget "FreebeeTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +397,7 @@
 				ADFB85FA1C7233D200E760B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
