@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADFB85DC1C7233D200E760B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFB85DB1C7233D200E760B1 /* AppDelegate.swift */; };
+		ADFB85DE1C7233D200E760B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFB85DD1C7233D200E760B1 /* ViewController.swift */; };
+		ADFB85E11C7233D200E760B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADFB85DF1C7233D200E760B1 /* Main.storyboard */; };
+		ADFB85E31C7233D200E760B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADFB85E21C7233D200E760B1 /* Assets.xcassets */; };
+		ADFB85E61C7233D200E760B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADFB85E41C7233D200E760B1 /* LaunchScreen.storyboard */; };
+		ADFB85F11C7233D200E760B1 /* FreebeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFB85F01C7233D200E760B1 /* FreebeeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADFB85ED1C7233D200E760B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADFB85D01C7233D100E760B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADFB85D71C7233D100E760B1;
+			remoteInfo = Freebee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADFB85D81C7233D200E760B1 /* Freebee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freebee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFB85DB1C7233D200E760B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADFB85DD1C7233D200E760B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADFB85E01C7233D200E760B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADFB85E21C7233D200E760B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADFB85E51C7233D200E760B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADFB85E71C7233D200E760B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADFB85EC1C7233D200E760B1 /* FreebeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreebeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFB85F01C7233D200E760B1 /* FreebeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreebeeTests.swift; sourceTree = "<group>"; };
+		ADFB85F21C7233D200E760B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADFB85D51C7233D100E760B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFB85E91C7233D200E760B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADFB85CF1C7233D100E760B1 = {
+			isa = PBXGroup;
+			children = (
+				ADFB85DA1C7233D200E760B1 /* Freebee */,
+				ADFB85EF1C7233D200E760B1 /* FreebeeTests */,
+				ADFB85D91C7233D200E760B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADFB85D91C7233D200E760B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADFB85D81C7233D200E760B1 /* Freebee.app */,
+				ADFB85EC1C7233D200E760B1 /* FreebeeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADFB85DA1C7233D200E760B1 /* Freebee */ = {
+			isa = PBXGroup;
+			children = (
+				ADFB85DB1C7233D200E760B1 /* AppDelegate.swift */,
+				ADFB85DD1C7233D200E760B1 /* ViewController.swift */,
+				ADFB85DF1C7233D200E760B1 /* Main.storyboard */,
+				ADFB85E21C7233D200E760B1 /* Assets.xcassets */,
+				ADFB85E41C7233D200E760B1 /* LaunchScreen.storyboard */,
+				ADFB85E71C7233D200E760B1 /* Info.plist */,
+			);
+			path = Freebee;
+			sourceTree = "<group>";
+		};
+		ADFB85EF1C7233D200E760B1 /* FreebeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADFB85F01C7233D200E760B1 /* FreebeeTests.swift */,
+				ADFB85F21C7233D200E760B1 /* Info.plist */,
+			);
+			path = FreebeeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADFB85D71C7233D100E760B1 /* Freebee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADFB85F51C7233D200E760B1 /* Build configuration list for PBXNativeTarget "Freebee" */;
+			buildPhases = (
+				ADFB85D41C7233D100E760B1 /* Sources */,
+				ADFB85D51C7233D100E760B1 /* Frameworks */,
+				ADFB85D61C7233D100E760B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Freebee;
+			productName = Freebee;
+			productReference = ADFB85D81C7233D200E760B1 /* Freebee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADFB85EB1C7233D200E760B1 /* FreebeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADFB85F81C7233D200E760B1 /* Build configuration list for PBXNativeTarget "FreebeeTests" */;
+			buildPhases = (
+				ADFB85E81C7233D200E760B1 /* Sources */,
+				ADFB85E91C7233D200E760B1 /* Frameworks */,
+				ADFB85EA1C7233D200E760B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADFB85EE1C7233D200E760B1 /* PBXTargetDependency */,
+			);
+			name = FreebeeTests;
+			productName = FreebeeTests;
+			productReference = ADFB85EC1C7233D200E760B1 /* FreebeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADFB85D01C7233D100E760B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = freebee;
+				TargetAttributes = {
+					ADFB85D71C7233D100E760B1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					ADFB85EB1C7233D200E760B1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = ADFB85D71C7233D100E760B1;
+					};
+				};
+			};
+			buildConfigurationList = ADFB85D31C7233D100E760B1 /* Build configuration list for PBXProject "Freebee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADFB85CF1C7233D100E760B1;
+			productRefGroup = ADFB85D91C7233D200E760B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADFB85D71C7233D100E760B1 /* Freebee */,
+				ADFB85EB1C7233D200E760B1 /* FreebeeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADFB85D61C7233D100E760B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFB85E61C7233D200E760B1 /* LaunchScreen.storyboard in Resources */,
+				ADFB85E31C7233D200E760B1 /* Assets.xcassets in Resources */,
+				ADFB85E11C7233D200E760B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFB85EA1C7233D200E760B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADFB85D41C7233D100E760B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFB85DE1C7233D200E760B1 /* ViewController.swift in Sources */,
+				ADFB85DC1C7233D200E760B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFB85E81C7233D200E760B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFB85F11C7233D200E760B1 /* FreebeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADFB85EE1C7233D200E760B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADFB85D71C7233D100E760B1 /* Freebee */;
+			targetProxy = ADFB85ED1C7233D200E760B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADFB85DF1C7233D200E760B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADFB85E01C7233D200E760B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADFB85E41C7233D200E760B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADFB85E51C7233D200E760B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADFB85F31C7233D200E760B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADFB85F41C7233D200E760B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADFB85F61C7233D200E760B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Freebee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = freebee.Freebee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADFB85F71C7233D200E760B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Freebee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = freebee.Freebee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADFB85F91C7233D200E760B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreebeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = freebee.FreebeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Freebee.app/Freebee";
+			};
+			name = Debug;
+		};
+		ADFB85FA1C7233D200E760B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreebeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = freebee.FreebeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Freebee.app/Freebee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADFB85D31C7233D100E760B1 /* Build configuration list for PBXProject "Freebee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFB85F31C7233D200E760B1 /* Debug */,
+				ADFB85F41C7233D200E760B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADFB85F51C7233D200E760B1 /* Build configuration list for PBXNativeTarget "Freebee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFB85F61C7233D200E760B1 /* Debug */,
+				ADFB85F71C7233D200E760B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADFB85F81C7233D200E760B1 /* Build configuration list for PBXNativeTarget "FreebeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFB85F91C7233D200E760B1 /* Debug */,
+				ADFB85FA1C7233D200E760B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADFB85D01C7233D100E760B1 /* Project object */;
+}
